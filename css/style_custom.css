@@ -1,0 +1,60 @@
+header.masthead{
+	/* padding-top: 0px; */
+}
+
+#index-splash{
+	min-height: 100vw;
+	width: 100vw;
+    height: 56.25vw;
+    min-height: 100vh;
+    min-width: 177.77vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.index-fullpage-header {
+    height: auto;
+    background-image: none;
+}
+
+.fullpage-header {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    min-height: 70vh;
+    background-image: url(https://dq5l3ftu6z6ds.cloudfront.net/static/img/assets/photos/about-9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.splash-container {
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+    object-fit: none;
+}
+
+.splash.visible {
+    opacity: 1;
+}
+
+.splash{
+	/* transition: all 3s cubic-bezier(0.75, 0, 0.23, 1.01); */
+    width: 100vw;
+    height: 56.25vw;
+    min-height: 100vh;
+    min-width: 177.77vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* opacity: 0; */
+
+}
+
+.splash video {
+    width: 100%;
+}
